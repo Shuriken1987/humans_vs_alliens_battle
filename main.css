@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.soldier-div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+}
+.alien-div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+}
+.soldier{
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    border: 1px solid black;
+    background-color: deepskyblue;
+}
+.allien{
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    border: 1px solid black;
+    background-color: greenyellow;
+}
+
+.sniper{
+    background: tomato;
+}
+.laser{
+    background: lightskyblue;
+}
+.info{
+    line-height: .8;
+    width: 150px;
+    height: 110px;
+    border: 1px solid black;
+    border-radius: 8px;
+    position: absolute;
+    display: none;
+    background-color: #eee;
+}
+/* .tankInfo{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 8px;
+    position: absolute;
+    display: none;
+    background-color: #eee;
+} */
